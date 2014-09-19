@@ -10,7 +10,7 @@ foreach($generalRoutes->getFiles() as $route)
     echo $route['path'];
 }
 
-##### get each files from 'test' folder
+##### Get each files from 'test' folder
 $robotRoutes = $robotObj->getFiles($robot['path'].'/test');
 foreach($robotRoutes as $robotRoute)
 {
