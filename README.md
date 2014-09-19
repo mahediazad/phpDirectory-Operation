@@ -2,15 +2,15 @@ phpDirectory Operation
 =======================
 This script is to get tree files and folder of a path fo directory
 
-#Uses
-//Get all sub folder form 'test' folder
+# Uses
+##### Get all sub folder form 'test' folder
 $generalRoutes = new DirectoryObj(dirname(dirname(__FILE__)) . DIRECTORY_SEPARATOR.'test');
 foreach($generalRoutes->getFiles() as $route)
 {
     echo $route['path'];
 }
 
-//get each files from 'test' folder
+##### get each files from 'test' folder
 $robotRoutes = $robotObj->getFiles($robot['path'].'/test');
 foreach($robotRoutes as $robotRoute)
 {
