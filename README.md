@@ -19,5 +19,5 @@ foreach($robotRoutes as $robotRoute)
 
 
 #Note
--Each function return a array with include files information such as file/folder  name and file/folder actual path
--Here dirname(dirname(__FILE__)) can be replace $_SERVER array path of a directory in host
+- Each function return a array with include files information such as file/folder  name and file/folder actual path
+- Here dirname(dirname(__FILE__)) can be replace $_SERVER array path of a directory in host
